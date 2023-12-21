@@ -93,3 +93,30 @@ td{
     border-color: #000000;
     border-radius: 20px;
 }
+
+.contact{
+    margin-left: 30%;
+    }
+
+.contactus{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: #000000;
+    font-family: 'Merienda', cursive;
+}
+
+input[type=text] {
+    width: 30%;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: #FDD71C;
+    font-family: 'Merienda', cursive;
+    padding: 20px;
+}
+
+label{
+    padding-bottom: 20px;
+}
