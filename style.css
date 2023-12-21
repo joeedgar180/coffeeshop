@@ -82,3 +82,14 @@ td{
     height: 10vw;
   
 }
+
+.times{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    width: 60%;
+    margin-left: 20%;
+    border-width: 5px;
+    border-color: #000000;
+    border-radius: 20px;
+}
