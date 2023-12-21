@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
+body{
+    background-color: #FDD71C;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #000000;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FDD71C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.centerimg{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maintext{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+    color: #000000;
+    font-family: 'Merienda', cursive;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #000000;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+.imagerow{
+    margin-left: 20%;
+    margin-right: 20%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;  
+}
+
+
+td{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Merienda', cursive;
+}
+
+.menu img{
+    width: 15vw;
+    height: 10vw;
+  
+}
