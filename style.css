@@ -5,6 +5,10 @@ body{
     background-color: #FDD71C;
 }
 
+.head{
+    max-width: auto;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -14,21 +18,30 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;     
 }
 
 a{
     text-decoration: none;
-    font-size: 30px;
     color: #FDD71C;
     font-family: 'Roboto', sans-serif;
+    font-size: 30pt;
+}
+
+a:hover{
+    color: #000000;
+    background-color: #FDD71C;
+
+
 }
 
 .centerimg{
     display: flex;
-    justify-content: center;
-    padding: 30px;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;   
+    
 }
 
 h1{
